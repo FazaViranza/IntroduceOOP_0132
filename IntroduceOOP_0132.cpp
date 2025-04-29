@@ -3,7 +3,16 @@ using namespace std;
 
 class Mahasiswa{
  public:
- 
+ int nim;
+ string nama;
+ float nilai;
+
+ void PrintData(){
+    cout << "Nim : " << nim << endl;
+    cout << "Nama : " << nama << endl;
+    cout << "Nilai : " << nilai < endl;
+ }
+
 };
 int main (){
 }
