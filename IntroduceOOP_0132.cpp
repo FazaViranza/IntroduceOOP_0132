@@ -10,13 +10,14 @@ class Mahasiswa{
  void PrintData(){
     cout << "Nim : " << nim << endl;
     cout << "Nama : " << nama << endl;
-    cout << "Nilai : " << nilai < endl;
+    cout << "Nilai : " << nilai << endl;
  }
 
 };
 int main (){
     Mahasiswa mhs;
 
-    mhs.nim = 2024;
-    
+    mhs.nim = 132;
+    mhs.nama = "Zaa";
+
 }
